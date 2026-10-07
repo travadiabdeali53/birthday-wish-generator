@@ -6,7 +6,7 @@ import './App.css'
 export default function App() {
   return (
     <Routes>
-      <Route path="/birthday-wish-generator/" element={<Home />} />
+      <Route path="/" element={<Home />} />
       <Route path="/wish" element={<BirthdayWish />} />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
